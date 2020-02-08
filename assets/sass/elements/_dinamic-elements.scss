@@ -52,17 +52,18 @@
   }
 
   &-item {
-    margin: 0 5px;
+    margin: 0 8px;
   }
 
   &-link {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: $iconColor;
+    color: $light_text_color;
 
-    &:hover {
-      color: $iconColorActive;
+    &:hover, &:focus {
+      color: $themeColorOne;
+      outline: none;
     }
   }
 }
