@@ -1,0 +1,192 @@
+.header {
+  background: $themeColorOne;
+  padding: 20% 0 15px;
+  position: fixed;
+  right: -200%;
+  top: 0;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  z-index: 100000000;
+  @extend %smooth_animation;
+  visibility: hidden;
+  opacity: 0;
+
+  &.active {
+    @extend %smooth_animation;
+    visibility: visible;
+    opacity: 1;
+    right: 0;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 15px;
+
+    & .logo {
+      display: none;
+    }
+  }
+
+  &__button {
+    display: none;
+    @extend %smooth_animation;
+
+    &:hover, &:focus {
+      @extend %smooth_animation;
+    }
+
+    &:active {
+      @extend %smooth_animation;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: $color_white;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .header {
+    background: transparent;
+    position: static;
+    z-index: auto;
+    min-width: 100%;
+    height: auto;
+    right: auto;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    padding: 10px 0;
+
+    &__button {
+      background: $button_bg_color;
+      box-shadow: $button_box_shadow;
+      border: none;
+      border-radius: $button_border_radius;
+      display: block;
+      width: 40px;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover, &:focus {
+        background: $button_hover_bg_color;
+      }
+
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+
+    &__container {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: auto;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+
+    &__column {
+      width: 50%;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      & .logo {
+        display: block;
+      }
+    }
+
+    &--right {
+      justify-content: flex-end;
+    }
+  }
+}
+
+
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  & .logo {
+    &-link {
+      padding-top: 5px;
+    }
+  }
+
+  &__button {
+    background: $button_bg_color;
+    border: none;
+    outline: none;
+    box-shadow: $button_box_shadow;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover, &:focus {
+      @extend %smooth_animation;
+      background: $button_hover_bg_color;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: $color_white;
+    @extend %smooth_animation;
+
+    &:hover {
+      @extend %smooth_animation;
+      fill: $color_white;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.menu-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  width: 100%;
+  height: 100%;
+}

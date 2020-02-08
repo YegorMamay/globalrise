@@ -1,0 +1,164 @@
+$debug: false !default;
+$image-url-path: "assets/img/" !default;
+$font-url-path: "assets/fonts/" !default;
+$color_white: #ffffff !default;
+$color_black: #000000 !default;
+$button_border_radius: 3px !default;
+$button_box_shadow: 0px 2px 15px rgba(89, 137, 246, 0.4);
+$button_bg_color: #5989F7;
+$button_hover_bg_color: lighten($button_bg_color, 5%);
+$dropdown_box_shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+$light_text_color: #ADADAD;
+
+// BRAND
+$themeColorOne: #160F3C;
+; // Обычно самый темный цвет. Используется для:
+// заголовков h1-h6 - $titleFontColor и других. 
+
+$themeColorTwo: #5989F7; // Основной "брендовый" цвет.
+// Поменять значение этой переменной согласно макета обязательно!
+
+$borderRadius: 0;
+$borderColor: lighten($themeColorOne, 70%);
+$shadow: 0 0 10px rgba($themeColorOne, .2);
+
+// SELECTION: цвет фона и текста при выделении его курсором
+$selectionBgColor: $themeColorTwo;
+$selectionFontColor: #fff;
+
+// BODY
+$bodyBgColor: $color_white; //white
+$bodyFontColor: $themeColorOne; // black
+
+// HEADER: цвет фона шапки сайта
+$headerBgColor: $color_white;
+$headerFontColor: $themeColorOne;
+
+// Text Highlight: цвет фона и текста при добавлении к нему .highlighted
+$textHighlightBgColor: $themeColorTwo;
+$textHighlightColor: #fff;
+
+// MENU
+$menuBgColor: $themeColorOne;
+$menuBgColorActive: $themeColorTwo;
+$menuFontColor: #fff;
+$menuFontColorActive: #fff;
+
+// MENU Mobile
+$navArrowColor: #fff;
+$navHeaderMobileBGColor: $themeColorOne;
+$navHamburgerMobileColor: #fff;
+
+$menuMobileBGColor: $themeColorOne;
+$menuMobileSubMenuBGColor: lighten($themeColorOne, 10%);
+$menuMobileLinkFontSize: 20px;
+$menuMobileSubMenuLinkFontSize: 18px;
+$menuMobileTextColor: #fff;
+$menuMobileSubMenuTextColor: $menuMobileTextColor;
+$menuMobileSubMenuBGOnHover: $themeColorOne;
+$menuMobileSubMenuTextColorOnHover: #fff;
+
+$hamburger-offset: 8px;
+$hamburger-duration: .1s;
+$hamburger-delay: .1s;
+$hamburger-color: $themeColorTwo;
+
+$menu-close-size: 25px;
+$menu-close-color: #fff;
+$menuContainerMobilePaddingTop: 30%;
+
+// FOOTER
+$footerBgColor: $themeColorOne;
+$footerFontColor: #fff;
+$footerLinkColorActive: darken($footerFontColor, 5%);
+
+// WRAPPER
+$wrapperBgColor: #fff;
+
+// TITLES
+$titleFontColor: $themeColorOne;
+$titleFontColorActive: lighten($titleFontColor, 10%);
+
+// LINKS
+$linkFontColor: #000;
+$linkFontColorActive: lighten($linkFontColor, 20%);
+
+// TABLE
+$tableBgColor: $themeColorTwo;
+$tableBgColorActive: lighten($themeColorTwo, 10%);
+$tableBorderColor: #fff;
+$tableBorderColorActive: #989898;
+$tableOddBgColor: $themeColorOne;
+$tableOddFontColor: #fff;
+$tableEvenBgColor: $themeColorTwo;
+$tableEvenFontColor: #fff;
+
+// TEXT
+$textMutedColor: #aaa;
+
+// Icons
+$iconColor: $themeColorTwo;
+$iconColorActive: $themeColorOne;
+$iconColorReversed: $bodyBgColor;
+
+// FORMS
+$formFieldBorderWidth: 1px;
+$formFieldBorderColor: lighten($themeColorOne, 60%);
+$formFieldPadding: 10px 8px;
+$formFieldTextColor: #000;
+$formFieldTextSize: 13px;
+$formFieldBorderRadius: $borderRadius;
+$formFieldBackgroundColor: #fff;
+$inputFieldMinHeight: 38px;
+$formBgColor: lighten($themeColorOne, 75%);
+
+// Pagination
+$paginationActiveLink: $themeColorTwo;
+$paginationActiveLinkText: #fff;
+$paginationLinkOnHover: $themeColorTwo;
+$paginationLinkOnHoverText: #fff;
+
+//WOOCOMMERCE
+$wooThemeColor: $themeColorTwo;
+
+// On sale
+$onsaleBackgroundColor: $wooThemeColor;
+$onsaleFontColor: #fff;
+
+// Products price
+$productsPriceFontColor: $wooThemeColor;
+
+// Single Product page
+$productPriceFontColor: $wooThemeColor;
+
+// error
+$errorBorderTopColor: #b81c23;
+$errorIconFontColor: #b81c23;
+
+// info
+$infoBorderTopColor: #1e85be;
+$infoIconFontColor: #1e85be;
+
+// message
+$messageBorderTopColor: $themeColorTwo;
+$messageIconFontColor: $themeColorTwo;
+
+//WOOCOMMERCE end
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1170px
+) !default;
