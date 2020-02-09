@@ -95,6 +95,34 @@ $main_content = get_field('main_content');
                     ?>
                 </div>
             </div>
+            <div class="block-clients">
+                <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'clients_title', true); ?></p>
+                <div class="block-clients__wrapper">
+                    <?php
+                    global $post;
+                    $args = array(
+                        'post_type'=> 'clients',
+                        'publish' => true,
+                        'posts_per_page' => 100
+                    );
+                    $cases_item = get_posts($args);
+                    foreach ($cases_item as $post) {
+                        ?>
+                        <?php
+                        $client_image = get_field('client_logo', get_the_ID());
+                        ?>
+                        <div class="block-clients__item">
+                            <div class="block-clients__image-wrapper">
+                                <img class="block-clients__logo" src="<?php echo $client_image; ?>" alt="logo"/>
+                            </div>
+                        </div>
+                        <?php
+                    }
+
+                    wp_reset_postdata();
+                    ?>
+                </div>
+            </div>
         </div>
         <?php get_template_part('loops/content', 'home'); ?>
     </div>

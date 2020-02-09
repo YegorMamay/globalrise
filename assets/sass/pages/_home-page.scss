@@ -85,7 +85,6 @@
 .content {
   background: url("/wp-content/themes/brainworks/assets/img/conten_bg.svg") no-repeat top/ cover;
   width: 100%;
-  height: 2000px;
 
   &__button {
     color: $themeColorOne;
@@ -398,3 +397,87 @@
     }
   }
 }
+
+.block-clients {
+  padding-top: 5%;
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 25px 0;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  &__item {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 25px;
+  }
+
+  &__image-wrapper {
+    background: $color_white;
+    width: 100%;
+    padding: 10px 25px;
+    box-shadow: $light_box_shadow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .block-clients {
+    &__item {
+      width: 50%;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .block-clients {
+    &__item {
+      width: 33.33333%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .block-clients {
+    &__item {
+      width: 25%;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .block-clients {
+    &__item {
+      width: 20%;
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .block-clients {
+    &__item {
+      width: 16.6666667%;
+    }
+  }
+}
+
+
+
+
+

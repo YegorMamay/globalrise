@@ -5570,7 +5570,6 @@ select {
 .content {
   background: url("/wp-content/themes/brainworks/assets/img/conten_bg.svg") no-repeat top/cover;
   width: 100%;
-  height: 2000px;
 }
 
 .content__button {
@@ -5911,6 +5910,88 @@ select {
 @media screen and (min-width: 1100px) {
   .block-cases__item-wrapper {
     width: 25%;
+  }
+}
+
+.block-clients {
+  padding-top: 5%;
+}
+
+.block-clients__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 25px 0;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.block-clients__item {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 25px;
+}
+
+.block-clients__image-wrapper {
+  background: #ffffff;
+  width: 100%;
+  padding: 10px 25px;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.block-clients__logo {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 450px) {
+  .block-clients__item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block-clients__item {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .block-clients__item {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .block-clients__item {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .block-clients__item {
+    width: 16.6666667%;
   }
 }
 
