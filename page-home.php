@@ -38,7 +38,7 @@ $main_content = get_field('main_content');
                     $args = array(
                         'post_type'=> 'services',
                         'publish' => true,
-                        'posts_per_page' => 30
+                        'posts_per_page' => 100
                     );
                     $services_item = get_posts($args);
                     foreach ($services_item as $post) {
@@ -61,10 +61,42 @@ $main_content = get_field('main_content');
                     ?>
                 </div>
             </div>
+            <div class="block-cases" id="cases">
+                <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'cases_title', true); ?></p>
+                <div class="block-cases__wrapper js-slider-case">
+                    <?php
+                    global $post;
+                    $args = array(
+                        'post_type'=> 'cases',
+                        'publish' => true,
+                        'posts_per_page' => 100
+                    );
+                    $cases_item = get_posts($args);
+                    foreach ($cases_item as $post) {
+                        ?>
+                        <?php
+                        $cases_image = get_field('cases_image', get_the_ID());
+                        $cases_description = get_field('cases_description', get_the_ID());
+                        $cases_color_text = get_field('cases_text_color', get_the_ID());
+                        ?>
+                        <div class="block-cases__item-wrapper">
+                            <div class="block-cases__item">
+                                <img class="block-cases__image" src="<?php echo $cases_image; ?>" alt="image"/>
+                                <div class="block-cases__caption">
+                                    <p class="block-cases__item-title" style="color: <?php echo $cases_color_text; ?>"><?php the_title(); ?></p>
+                                    <div class="block-cases__description" style="color: <?php echo $cases_color_text; ?>"><?php echo $cases_description; ?></div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+
+                    wp_reset_postdata();
+                    ?>
+                </div>
+            </div>
         </div>
-
         <?php get_template_part('loops/content', 'home'); ?>
-
     </div>
 </div>
 <?php get_footer(); ?>

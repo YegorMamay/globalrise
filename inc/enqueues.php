@@ -30,9 +30,9 @@ function bw_enqueues()
     wp_register_script('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'),
         null, true);
 
-    if (post_type_exists('reviews') && intval(wp_count_posts('reviews')->publish) > 0 && is_front_page()) {
+//    if (post_type_exists('reviews') && intval(wp_count_posts('reviews')->publish) > 0 && is_front_page()) {
         wp_enqueue_script('slick');
-    }
+//    }
 
     if (!WP_DEBUG) {
         wp_deregister_script('jquery');

@@ -127,7 +127,7 @@ q:after {
   content: none;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -3974,7 +3974,7 @@ table th[class*="col-"] {
   clear: both;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -4569,7 +4569,7 @@ select {
   }
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -5619,7 +5619,6 @@ select {
 
 .services {
   width: 100%;
-  height: 100Vh;
   padding-top: 5%;
 }
 
@@ -5754,6 +5753,144 @@ select {
     top: 50%;
     left: -180px;
   }
+}
+
+.main-title {
+  margin: 20px 0 35px;
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (min-width: 1355px) {
+  .main-title {
+    text-align: left;
+  }
+  .main-title:before {
+    content: '';
+    width: 150px;
+    height: 2px;
+    background: #5989F7;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    left: -180px;
+  }
+}
+
+.block-cases {
+  padding-top: 5%;
+}
+
+.block-cases__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto 0;
+}
+
+.block-cases__wrapper.slick-slider {
+  padding: 5px 40px;
+}
+
+.block-cases__wrapper.slick-slider .slick-arrow {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 10px 40px rgba(89, 137, 246, 0.25);
+  box-shadow: 0px 10px 40px rgba(89, 137, 246, 0.25);
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 10;
+}
+
+.block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus {
+  background: #5989F7;
+}
+
+.block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon {
+  fill: #ffffff;
+}
+
+.block-cases__wrapper.slick-slider .slick-arrow .slick-icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  fill: #ADADAD;
+}
+
+.block-cases__wrapper.slick-slider .slick-arrow.slick-prev {
+  left: 0;
+}
+
+.block-cases__wrapper.slick-slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+.block-cases__item-wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 10px 15px;
+  width: 25%;
+}
+
+.block-cases__item {
+  -webkit-box-shadow: 0 5px 20px 2px rgba(89, 137, 246, 0.25);
+  box-shadow: 0 5px 20px 2px rgba(89, 137, 246, 0.25);
+  position: relative;
+  width: 100%;
+}
+
+.block-cases__image {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.block-cases__caption {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  max-height: 100px;
+  padding: 0 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.block-cases__item-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 5px;
 }
 
 ol.commentlist .comment-body {

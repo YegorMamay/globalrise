@@ -15,7 +15,7 @@
         dropdownPhone();
         scrollToElement();
         sidebarAccordion();
-        reviews(".js-reviews");
+        sliderCase(".js-slider-case");
         scrollTop(".js-scroll-top");
         wrapHighlightedElements(".highlighted");
         if (ajax) {
@@ -58,37 +58,42 @@
             }
         });
     };
-    var reviews = function reviews(container) {
+    var sliderCase = function sliderCase(container) {
         var element = $(container);
-        if (element.children().length > 1 && typeof $.fn.slick === "function") {
+        if (element.children().length > 4 && typeof $.fn.slick === "function") {
             element.slick({
                 adaptiveHeight: false,
                 autoplay: false,
                 autoplaySpeed: 3e3,
                 arrows: true,
-                prevArrow: '<button type="button" class="slick-prev">&lsaquo;</button>',
-                nextArrow: '<button type="button" class="slick-next">&rsaquo;</button>',
+                prevArrow: '<button type="button" class="slick-prev"><svg class="slick-icon"><use xlink:href="#icon_prev"></use></svg></button>',
+                nextArrow: '<button type="button" class="slick-next"><svg class="slick-icon"><use xlink:href="#icon_next"></use></svg></button>',
                 dots: false,
                 dotsClass: "slick-dots",
                 draggable: true,
                 fade: false,
                 infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                speed: 300,
+                swipe: true,
+                zIndex: 10,
                 responsive: [ {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 1
+                        slidesToShow: 3
                     }
                 }, {
                     breakpoint: 768,
                     settings: {
+                        slidesToShow: 2
+                    }
+                }, {
+                    breakpoint: 450,
+                    settings: {
                         slidesToShow: 1
                     }
-                } ],
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                speed: 300,
-                swipe: true,
-                zIndex: 10
+                } ]
             });
         }
     };

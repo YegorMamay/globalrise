@@ -20,7 +20,8 @@
         dropdownPhone();
         scrollToElement();
         sidebarAccordion();
-        reviews('.js-reviews');
+        // reviews('.js-reviews');
+        sliderCase('.js-slider-case');
         scrollTop('.js-scroll-top');
         wrapHighlightedElements('.highlighted');
         if (ajax) {
@@ -97,65 +98,121 @@
         });
     };
 
+    // /**
+    //  * Reviews - Slick Slider
+    //  *
+    //  * @example
+    //  * reviews('.js-reviews');
+    //  *
+    //  * @author Fedor Kudinov <brothersrabbits@mail.ru>
+    //  *
+    //  * @param {(string|Object)} container - reviews container
+    //  * @returns {void}
+    //  */
+    // const reviews = (container) => {
+    //     const element = $(container);
+    //
+    //     if (element.children().length > 1 && typeof $.fn.slick === 'function') {
+    //         element.slick({
+    //             adaptiveHeight: false,
+    //             autoplay: false,
+    //             autoplaySpeed: 3000,
+    //             arrows: true,
+    //             prevArrow: '<button type="button" class="slick-prev">&lsaquo;</button>',
+    //             nextArrow: '<button type="button" class="slick-next">&rsaquo;</button>',
+    //             dots: false,
+    //             dotsClass: 'slick-dots',
+    //             draggable: true,
+    //             fade: false,
+    //             infinite: true,
+    //             responsive: [
+    //                 {
+    //                     breakpoint: 1024,
+    //                     settings: {
+    //                         slidesToShow: 1,
+    //                     }
+    //                 },
+    //                 {
+    //                     breakpoint: 768,
+    //                     settings: {
+    //                         slidesToShow: 1,
+    //                     }
+    //                 },
+    //             ],
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1,
+    //             speed: 300,
+    //             swipe: true,
+    //             zIndex: 10,
+    //         });
+    //
+    //         /*element.on('swipe', (slick, direction) => {
+    //             console.log(slick, direction);
+    //         });
+    //
+    //         element.on('afterChange', (slick, currentSlide) => {
+    //             console.log(slick, currentSlide);
+    //         });
+    //
+    //         element.on('beforeChange', (slick, currentSlide, nextSlide) => {
+    //             console.log(slick, currentSlide, nextSlide);
+    //         });*/
+    //     }
+    // };
+
+
     /**
-     * Reviews - Slick Slider
+     * sliderCase - Slick Slider
      *
      * @example
-     * reviews('.js-reviews');
+     * sliderCase('.js-slider-case');
      *
-     * @author Fedor Kudinov <brothersrabbits@mail.ru>
      *
-     * @param {(string|Object)} container - reviews container
+     * @param {(string|Object)} container - block-cases container
      * @returns {void}
      */
-    const reviews = (container) => {
+    const sliderCase = (container) => {
         const element = $(container);
 
-        if (element.children().length > 1 && typeof $.fn.slick === 'function') {
+        if (element.children().length > 4 && typeof $.fn.slick === 'function') {
             element.slick({
                 adaptiveHeight: false,
                 autoplay: false,
                 autoplaySpeed: 3000,
                 arrows: true,
-                prevArrow: '<button type="button" class="slick-prev">&lsaquo;</button>',
-                nextArrow: '<button type="button" class="slick-next">&rsaquo;</button>',
+                prevArrow: '<button type="button" class="slick-prev"><svg class="slick-icon"><use xlink:href="#icon_prev"></use></svg></button>',
+                nextArrow: '<button type="button" class="slick-next"><svg class="slick-icon"><use xlink:href="#icon_next"></use></svg></button>',
                 dots: false,
                 dotsClass: 'slick-dots',
                 draggable: true,
                 fade: false,
                 infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                speed: 300,
+                swipe: true,
+                zIndex: 10,
                 responsive: [
                     {
                         breakpoint: 1024,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 3,
                         }
                     },
                     {
                         breakpoint: 768,
                         settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
                             slidesToShow: 1,
                         }
                     },
                 ],
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                speed: 300,
-                swipe: true,
-                zIndex: 10,
             });
-
-            /*element.on('swipe', (slick, direction) => {
-                console.log(slick, direction);
-            });
-
-            element.on('afterChange', (slick, currentSlide) => {
-                console.log(slick, currentSlide);
-            });
-
-            element.on('beforeChange', (slick, currentSlide, nextSlide) => {
-                console.log(slick, currentSlide, nextSlide);
-            });*/
         }
     };
 
