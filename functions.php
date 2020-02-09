@@ -109,3 +109,36 @@ function my_custom_cases(){
         'supports'           => array('title')
     ) );
 }
+
+//Кейсы
+add_action('init', 'my_custom_clients');
+function my_custom_clients(){
+    register_post_type('clients', array(
+        'labels'             => array(
+            'name'               => 'Наши клиенты',
+            'singular_name'      => 'Наш клиент',
+            'add_new'            => 'Добавить',
+            'add_new_item'       => 'Добавить новый блок',
+            'edit_item'          => 'Редактировать блок',
+            'new_item'           => 'Новый блок',
+            'view_item'          => 'Посмотреть блок',
+            'search_items'       => 'Найти блок',
+            'not_found'          =>  'Блоков не найдено',
+            'not_found_in_trash' => 'В корзине блоков не найдено',
+            'parent_item_colon'  => '',
+            'menu_name'          => 'Наши клиенты'
+
+        ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => true,
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'           => array('title')
+    ) );
+}

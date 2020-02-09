@@ -5761,10 +5761,13 @@ select {
   text-align: center;
 }
 
-@media screen and (min-width: 1355px) {
+@media screen and (min-width: 1100px) {
   .main-title {
     text-align: left;
   }
+}
+
+@media screen and (min-width: 1355px) {
   .main-title:before {
     content: '';
     width: 150px;
@@ -5858,7 +5861,7 @@ select {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 10px 15px;
-  width: 25%;
+  width: 100%;
 }
 
 .block-cases__item {
@@ -5891,6 +5894,24 @@ select {
   font-size: 16px;
   font-weight: 800;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 575px) {
+  .block-cases__item-wrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block-cases__item-wrapper {
+    width: 33.3333333%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .block-cases__item-wrapper {
+    width: 25%;
+  }
 }
 
 ol.commentlist .comment-body {
