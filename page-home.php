@@ -132,7 +132,7 @@ $main_content = get_field('main_content');
     $contacts_elem_id = get_post_meta(get_the_ID(), 'contacts_image', true);
     $contacts_image = wp_get_attachment_url($contacts_elem_id);
     ?>
-    <div class="block-contacts__section" style="background: url('<?php echo $contacts_image; ?>') no-repeat center / 90%">
+    <div class="block-contacts__section" style="background: url('<?php echo $contacts_image; ?>') no-repeat center / cover">
         <div class="container">
             <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'contacts_title', true); ?></p>
             <div class="block-contacts__wrapper">

@@ -477,8 +477,14 @@
                         e.preventDefault();
                         const target = $(href[0] === '#' ? href : href.slice(1));
                         if (target.length) {
+                            let menuHeight;
+                            if($(window).width() > 1100) {
+                                menuHeight = 5;
+                            } else  {
+                                menuHeight = 65;
+                            }
                             $('html, body').animate({
-                                scrollTop: target.offset().top
+                                scrollTop: target.offset().top - menuHeight
                             }, animationSpeed);
                         } else if (href[0] === "/") {
                             location.href = href;
