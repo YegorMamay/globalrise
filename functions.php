@@ -31,6 +31,7 @@ add_action( 'after_setup_theme', function () {
 	if ( function_exists( 'pll_register_string' ) ) {
 		pll_register_string( 'email', 'Email', 'Brainworks' );
 		pll_register_string( 'address', 'Address', 'Brainworks' );
+        pll_register_string( 'phones', 'Phones', 'Brainworks' );
 		pll_register_string( 'work-schedule', 'Work Schedule', 'Brainworks' );
 
 		pll_register_string( 'social-vk', 'Vk', 'Brainworks' );
@@ -73,7 +74,7 @@ function my_custom_services(){
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'supports'           => array('title')
+        'supports'           => array('title', 'editor')
     ) );
 }
 
@@ -106,11 +107,11 @@ function my_custom_cases(){
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'supports'           => array('title')
+        'supports'           => array('title', 'editor')
     ) );
 }
 
-//Кейсы
+//Клиенты
 add_action('init', 'my_custom_clients');
 function my_custom_clients(){
     register_post_type('clients', array(
@@ -139,6 +140,6 @@ function my_custom_clients(){
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'supports'           => array('title')
+        'supports'           => array('title', 'editor')
     ) );
 }

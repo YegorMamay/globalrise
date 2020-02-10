@@ -127,7 +127,7 @@ q:after {
   content: none;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -3974,7 +3974,7 @@ table th[class*="col-"] {
   clear: both;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -4569,7 +4569,7 @@ select {
   }
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:hover .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -5596,11 +5596,11 @@ select {
   top: -50px;
 }
 
-.content__button:hover {
+.content__button:hover, .content__button:focus {
   color: #5989F7;
 }
 
-.content__button:hover .content__arrow {
+.content__button:hover .content__arrow, .content__button:focus .content__arrow {
   fill: #5989F7;
 }
 
@@ -5961,7 +5961,7 @@ select {
 
 .block-clients__logo {
   width: 100%;
-  max-width: 160px;
+  max-width: 140px;
   margin: 0 auto;
 }
 
@@ -5981,6 +5981,9 @@ select {
   .block-clients__item {
     width: 25%;
   }
+  .block-clients__logo {
+    max-width: 120px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -5993,6 +5996,125 @@ select {
   .block-clients__item {
     width: 16.6666667%;
   }
+}
+
+.block-contacts {
+  margin-top: 2%;
+  padding-top: 2%;
+}
+
+.block-contacts__section {
+  width: 100%;
+  min-height: 550px;
+}
+
+.block-contacts__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.block-contacts__item {
+  margin-bottom: 30px;
+}
+
+.block-contacts__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.block-contacts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 4%;
+}
+
+.block-contacts__sub-title {
+  color: #160F3C;
+  font-size: 17px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.block-contacts__field {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+
+.block-contacts__field .phone {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.block-contacts__field .phone-item {
+  margin: 0 0 6px;
+}
+
+.block-contacts__field .phone-number {
+  font-size: 15px;
+}
+
+.block-contacts__link {
+  font-size: 15px;
 }
 
 ol.commentlist .comment-body {
@@ -6627,12 +6749,12 @@ textarea {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #160F3C;
 }
 
 a:hover, a:active, a:focus {
   text-decoration: none;
-  color: #333333;
+  color: #5989F7;
 }
 
 .pagination {

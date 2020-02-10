@@ -84,8 +84,8 @@ $titleFontColor: $themeColorOne;
 $titleFontColorActive: lighten($titleFontColor, 10%);
 
 // LINKS
-$linkFontColor: #000;
-$linkFontColorActive: lighten($linkFontColor, 20%);
+$linkFontColor: $themeColorOne;
+$linkFontColorActive: $themeColorTwo;
 
 // TABLE
 $tableBgColor: $themeColorTwo;

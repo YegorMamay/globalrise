@@ -83,7 +83,7 @@
 }
 
 .content {
-  background: url("/wp-content/themes/brainworks/assets/img/conten_bg.svg") no-repeat top/ cover;
+  background: url("/wp-content/themes/brainworks/assets/img/conten_bg.svg") no-repeat top / cover;
   width: 100%;
 
   &__button {
@@ -102,14 +102,14 @@
     top: - 50px;
     @extend %smooth_animation;
 
-    &:hover {
+    &:hover, &:focus {
       @extend %smooth_animation;
       color: $themeColorTwo;
-    }
 
-    &:hover .content__arrow {
-      @extend %smooth_animation;
-      fill: $themeColorTwo;
+      & .content__arrow {
+        @extend %smooth_animation;
+        fill: $themeColorTwo;
+      }
     }
   }
 
@@ -430,7 +430,7 @@
 
   &__logo {
     width: 100%;
-    max-width: 160px;
+    max-width: 140px;
     margin: 0 auto;
   }
 }
@@ -457,6 +457,10 @@
     &__item {
       width: 25%;
     }
+
+    &__logo {
+      max-width: 120px;
+    }
   }
 }
 
@@ -474,6 +478,83 @@
     &__item {
       width: 16.6666667%;
     }
+  }
+}
+
+.block-contacts {
+  margin-top: 2%;
+  padding-top: 2%;
+
+  &__section {
+    width: 100%;
+    min-height: 550px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 4%;
+  }
+
+  &__sub-title {
+    color: $themeColorOne;
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+
+    & .phone {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      &-item {
+        margin: 0 0 6px;
+      }
+
+      &-number {
+        font-size: 15px;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 15px;
   }
 }
 

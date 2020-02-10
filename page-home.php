@@ -79,7 +79,7 @@ $main_content = get_field('main_content');
                         $cases_description = get_field('cases_description', get_the_ID());
                         $cases_color_text = get_field('cases_text_color', get_the_ID());
                         ?>
-                        <div class="block-cases__item-wrapper">
+                        <a href="<?php echo get_permalink(); ?>" class="block-cases__item-wrapper">
                             <div class="block-cases__item">
                                 <img class="block-cases__image" src="<?php echo $cases_image; ?>" alt="image"/>
                                 <div class="block-cases__caption">
@@ -87,7 +87,7 @@ $main_content = get_field('main_content');
                                     <div class="block-cases__description" style="color: <?php echo $cases_color_text; ?>"><?php echo $cases_description; ?></div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <?php
                     }
 
@@ -95,7 +95,7 @@ $main_content = get_field('main_content');
                     ?>
                 </div>
             </div>
-            <div class="block-clients">
+            <div class="block-clients" id="clients">
                 <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'clients_title', true); ?></p>
                 <div class="block-clients__wrapper">
                     <?php
@@ -125,6 +125,45 @@ $main_content = get_field('main_content');
             </div>
         </div>
         <?php get_template_part('loops/content', 'home'); ?>
+    </div>
+</div>
+<div class="block-contacts" id="contact">
+    <?php
+    $contacts_elem_id = get_post_meta(get_the_ID(), 'contacts_image', true);
+    $contacts_image = wp_get_attachment_url($contacts_elem_id);
+    ?>
+    <div class="block-contacts__section" style="background: url('<?php echo $contacts_image; ?>') no-repeat center / 90%">
+        <div class="container">
+            <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'contacts_title', true); ?></p>
+            <div class="block-contacts__wrapper">
+                <div class="block-contacts__row">
+                    <div class="block-contacts__content">
+                        <div class="block-contacts__item">
+                            <?php
+                            $address = get_theme_mod('bw_additional_address');
+                            if (!empty($address)) { ?>
+                                <p class="block-contacts__sub-title"><?php pll_e('Address'); ?></p>
+                                <div class="block-contacts__field"><?php echo esc_html($address); ?></div>
+                            <?php } ?>
+                        </div>
+                        <div class="block-contacts__item">
+                            <p class="block-contacts__sub-title"><?php pll_e('Phones'); ?></p>
+                            <div class="block-contacts__field"><?php echo do_shortcode('[bw-phone]'); ?></div>
+                        </div>
+                        <div class="block-contacts__item">
+                            <?php
+                            $email = get_theme_mod('bw_additional_email');
+                            if (!empty($email)) { ?>
+                                <p class="block-contacts__sub-title"><?php pll_e('Email'); ?></p>
+                                <a class="block-contacts__link" href="mailto:<?php echo esc_attr($email); ?>">
+                                    <?php echo esc_html($email); ?>
+                                </a>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>
