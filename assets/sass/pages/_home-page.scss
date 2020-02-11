@@ -1,6 +1,6 @@
 .top-section {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 65px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -11,8 +11,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeInUp;
-    animation-duration: $animation_speed;
   }
 
   &__title {
@@ -70,6 +68,8 @@
     &__wrapper {
       max-width: 50%;
       align-items: flex-start;
+      animation: fadeInUp;
+      animation-duration: $animation_speed;
     }
 
     &__title {
@@ -504,7 +504,7 @@
 
   &__row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
   }
@@ -556,9 +556,261 @@
   &__link {
     font-size: 15px;
   }
+
+  &__form {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
+#contact-form {
+  & .fc-form {
+    box-shadow: $form_box_shadow;
+    width: 100%;
+    max-width: 300px;
 
+    & .error {
+      right: 5px;
+      font-size: 12px;
+    }
 
+    & .submit-button {
+      background: $button_bg_color;
+      border: 1px solid $button_bg_color;
+      border-radius: $button_border_radius;
+      box-shadow: $button_box_shadow;
+      color: $color_white;
+      font-family: $font-family-sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: none;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 100%;
+      padding: 10px 40px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      @extend %smooth_animation;
 
+      &:hover, &:focus {
+        color: $color_white;
+        background: $button_hover_bg_color;
+        border-color: $button_hover_bg_color;
+        @extend %smooth_animation;
+      }
 
+      &:active {
+        box-shadow: none;
+        @extend %smooth_animation;
+        transform: scale(0.95);
+      }
+    }
+  }
+
+  & .heading-cover {
+    padding: 0;
+    margin-bottom: 5px;
+
+    & span {
+      color: $themeColorOne;
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
+
+  & .form-element-html {
+    padding: 0 0 15px;
+
+    & input {
+      border: 1px solid $border_light_color;
+      border-radius: $button_border_radius;
+      background: $color_white;
+      color: $themeColorOne;
+      height: 38px;
+      font-size: 14px;
+      @extend %smooth_animation;
+
+      &::placeholder {
+        color: $light_text_color;
+        font-size: 14px;
+      }
+
+      &:focus {
+        border-color: $themeColorTwo;
+        @extend %smooth_animation
+      }
+    }
+  }
+
+  & .form-page-content {
+    padding: 30px 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .block-contacts {
+    &__section {
+      height: auto;
+      padding: 15px 0 25px;
+    }
+
+    &__row {
+      background: rgba(255, 255, 255, 0.55);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 15px;
+    }
+
+    &__wrapper {
+      margin-left: -15px;
+      margin-right: -15px;
+      width: auto;
+    }
+
+    &__item {
+      width: 100%;
+    }
+
+    &__field {
+      justify-content: center;
+      align-items: center;
+
+      & .phone {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    &__sub-title {
+      text-align: center;
+    }
+
+    &__link {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+}
+
+#top {
+  & .pum-container {
+    box-shadow: $form_box_shadow;
+
+    & .pum-close {
+      box-shadow: $form_box_shadow;
+    }
+
+    & .fc-form {
+      box-shadow: none;
+      width: 100%;
+      max-width: 320px;
+
+      & .error {
+        right: 5px;
+        font-size: 12px;
+      }
+
+      & .submit-button {
+        background: $button_bg_color;
+        border: 1px solid $button_bg_color;
+        border-radius: $button_border_radius;
+        box-shadow: $button_box_shadow;
+        color: $color_white;
+        font-family: $font-family-sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        text-transform: none;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 100%;
+        padding: 10px 40px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        @extend %smooth_animation;
+
+        &:hover, &:focus {
+          color: $color_white;
+          background: $button_hover_bg_color;
+          border-color: $button_hover_bg_color;
+          @extend %smooth_animation;
+        }
+
+        &:active {
+          box-shadow: none;
+          @extend %smooth_animation;
+          transform: scale(0.95);
+        }
+      }
+    }
+
+    & .heading-cover {
+      padding: 0;
+      margin-bottom: 5px;
+
+      & span {
+        color: $themeColorOne;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+
+    & .form-element-html {
+      padding: 0 0 15px;
+
+      & input {
+        border: 1px solid darken($border_light_color, 15%);
+        border-radius: $button_border_radius;
+        background: $color_white;
+        color: $themeColorOne;
+        height: 45px;
+        font-size: 14px;
+        @extend %smooth_animation;
+
+        &::placeholder {
+          color: $light_text_color;
+          font-size: 14px;
+        }
+
+        &:focus {
+          border-color: $themeColorTwo;
+          @extend %smooth_animation
+        }
+      }
+
+      & textarea {
+        border: 1px solid darken($border_light_color, 15%);
+        border-radius: $button_border_radius;
+        background: $color_white;
+        color: $themeColorOne;
+        font-size: 14px;
+        @extend %smooth_animation;
+
+        &::placeholder {
+          color: $light_text_color;
+          font-size: 14px;
+        }
+
+        &:focus {
+          border-color: $themeColorTwo;
+          @extend %smooth_animation
+        }
+      }
+    }
+
+    & .form-page-content {
+      padding: 15px 20px;
+    }
+  }
+}

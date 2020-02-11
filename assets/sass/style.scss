@@ -204,3 +204,10 @@ img {
     padding-top: 0;
   }
 }
+
+@media screen and (max-width: 1099px) {
+  .scroll-top {
+    bottom: 5px !important;
+    right: 5px !important;
+  }
+}

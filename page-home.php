@@ -161,6 +161,9 @@ $main_content = get_field('main_content');
                             <?php } ?>
                         </div>
                     </div>
+                    <div class="block-contacts__form" id="contact-form">
+                        <?php echo do_shortcode('[fc id=\'1\'][/fc]'); ?>
+                    </div>
                 </div>
             </div>
         </div>

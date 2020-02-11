@@ -10,9 +10,12 @@ $button_hover_bg_color: lighten($button_bg_color, 7%);
 $dropdown_box_shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
 $light_text_color: #ADADAD;
 $light_box_shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-$animation_speed: 1s;
+$animation_speed: 1.5s;
 $cases_box_shadow: 0 5px 20px 2px rgba(89, 137, 246, 0.25);
 $arrow_box_shadow: 0px 10px 40px rgba(89, 137, 246, 0.25);
+$form_box_shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+$border_light_color: #ededed;
+$mobile_nav_bg: linear-gradient(to bottom, rgba(89, 137, 247, 1) 0%, rgba(96, 171, 252, 0.98) 100%);
 
 // BRAND
 $themeColorOne: #160F3C;

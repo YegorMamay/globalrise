@@ -123,7 +123,7 @@
         var arrowOpener = function arrowOpener(parent) {
             var activeArrowClass = "menu-item-has-children-arrow-active";
             return $("<button />").addClass("menu-item-has-children-arrow").on("click", function() {
-                parent.children(".sub-menu").eq(0).fadeToggle(200);
+                parent.children(".sub-menu").eq(0).slideToggle(100);
                 if ($(this).hasClass(activeArrowClass)) {
                     $(this).removeClass(activeArrowClass);
                 } else {
@@ -272,10 +272,4 @@
             });
         });
     };
-    $(".js-hamburger").on("click", function() {
-        $("body").addClass("body-overflow");
-    });
-    $(".js-menu-close, .menu-link").on("click", function() {
-        $("body").removeClass("body-overflow");
-    });
 })(window, document, jQuery, window.jpAjax);

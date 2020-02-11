@@ -127,7 +127,7 @@ q:after {
   content: none;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -3974,7 +3974,7 @@ table th[class*="col-"] {
   clear: both;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -4569,7 +4569,7 @@ select {
   }
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -5459,7 +5459,7 @@ select {
 
 .top-section {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 65px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5487,10 +5487,6 @@ select {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-animation: fadeInUp;
-  animation: fadeInUp;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
 }
 
 .top-section__title {
@@ -5558,6 +5554,10 @@ select {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    -webkit-animation: fadeInUp;
+    animation: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
   }
   .top-section__title {
     text-align: left;
@@ -6033,9 +6033,9 @@ select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -6115,6 +6115,340 @@ select {
 
 .block-contacts__link {
   font-size: 15px;
+}
+
+.block-contacts__form {
+  width: 100%;
+  max-width: 300px;
+}
+
+#contact-form .fc-form {
+  -webkit-box-shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+  box-shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+  width: 100%;
+  max-width: 300px;
+}
+
+#contact-form .fc-form .error {
+  right: 5px;
+  font-size: 12px;
+}
+
+#contact-form .fc-form .submit-button {
+  background: #5989F7;
+  border: 1px solid #5989F7;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 15px rgba(89, 137, 246, 0.4);
+  box-shadow: 0px 2px 15px rgba(89, 137, 246, 0.4);
+  color: #ffffff;
+  font-family: "Gilroy", "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus {
+  color: #ffffff;
+  background: #7ba1f9;
+  border-color: #7ba1f9;
+}
+
+#contact-form .fc-form .submit-button:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+#contact-form .heading-cover {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+#contact-form .heading-cover span {
+  color: #160F3C;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#contact-form .form-element-html {
+  padding: 0 0 15px;
+}
+
+#contact-form .form-element-html input {
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  background: #ffffff;
+  color: #160F3C;
+  height: 38px;
+  font-size: 14px;
+}
+
+#contact-form .form-element-html input::-webkit-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#contact-form .form-element-html input::-moz-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#contact-form .form-element-html input:-ms-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#contact-form .form-element-html input::-ms-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#contact-form .form-element-html input::placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#contact-form .form-element-html input:focus {
+  border-color: #5989F7;
+}
+
+#contact-form .form-page-content {
+  padding: 30px 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .block-contacts__section {
+    height: auto;
+    padding: 15px 0 25px;
+  }
+  .block-contacts__row {
+    background: rgba(255, 255, 255, 0.55);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  .block-contacts__wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  .block-contacts__item {
+    width: 100%;
+  }
+  .block-contacts__field {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .block-contacts__field .phone {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .block-contacts__sub-title {
+    text-align: center;
+  }
+  .block-contacts__link {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#top .pum-container {
+  -webkit-box-shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+  box-shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+}
+
+#top .pum-container .pum-close {
+  -webkit-box-shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+  box-shadow: 0px 10px 30px rgba(89, 137, 246, 0.15);
+}
+
+#top .pum-container .fc-form {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  max-width: 320px;
+}
+
+#top .pum-container .fc-form .error {
+  right: 5px;
+  font-size: 12px;
+}
+
+#top .pum-container .fc-form .submit-button {
+  background: #5989F7;
+  border: 1px solid #5989F7;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 15px rgba(89, 137, 246, 0.4);
+  box-shadow: 0px 2px 15px rgba(89, 137, 246, 0.4);
+  color: #ffffff;
+  font-family: "Gilroy", "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 45px;
+  width: 100%;
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus {
+  color: #ffffff;
+  background: #7ba1f9;
+  border-color: #7ba1f9;
+}
+
+#top .pum-container .fc-form .submit-button:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+#top .pum-container .heading-cover {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+#top .pum-container .heading-cover span {
+  color: #160F3C;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#top .pum-container .form-element-html {
+  padding: 0 0 15px;
+}
+
+#top .pum-container .form-element-html input {
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  background: #ffffff;
+  color: #160F3C;
+  height: 45px;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html input::-webkit-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html input::-moz-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html input:-ms-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html input::-ms-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html input::placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html input:focus {
+  border-color: #5989F7;
+}
+
+#top .pum-container .form-element-html textarea {
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  background: #ffffff;
+  color: #160F3C;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html textarea::-webkit-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html textarea::-moz-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html textarea:-ms-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html textarea::-ms-input-placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html textarea::placeholder {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+#top .pum-container .form-element-html textarea:focus {
+  border-color: #5989F7;
+}
+
+#top .pum-container .form-page-content {
+  padding: 15px 20px;
 }
 
 ol.commentlist .comment-body {
@@ -7175,7 +7509,8 @@ hr.style-two {
 }
 
 .header {
-  background: #160F3C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5989f7), to(rgba(96, 171, 252, 0.98)));
+  background: linear-gradient(to bottom, #5989f7 0%, rgba(96, 171, 252, 0.98) 100%);
   padding: 40px 0 15px;
   position: fixed;
   right: -200%;
@@ -7494,7 +7829,7 @@ hr.style-two {
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
   position: absolute;
-  top: 350%;
+  top: 200%;
   left: 0;
   z-index: -5;
   width: 250px;
@@ -7563,6 +7898,8 @@ hr.style-two {
     display: none;
     background: transparent;
     position: static;
+    -webkit-box-shadow: none;
+    box-shadow: none;
     width: 100%;
     z-index: auto;
     left: auto;
@@ -7571,6 +7908,10 @@ hr.style-two {
     top: auto;
     visibility: visible;
     opacity: 1;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
   }
   .nav .sub-menu-link {
     color: #ffffff;
@@ -7580,8 +7921,8 @@ hr.style-two {
     display: block;
     color: #ffffff;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 0;
+    left: -30px;
     z-index: 10;
   }
   .nav .menu-container {
@@ -7598,6 +7939,8 @@ hr.style-two {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    max-height: 450px;
+    overflow: auto;
   }
   .nav .menu-container .menu-item {
     display: -webkit-box;
@@ -7615,6 +7958,9 @@ hr.style-two {
     padding: 0;
     margin-bottom: 5px;
     position: relative;
+  }
+  .nav .menu-container .menu-item:hover .menu-link {
+    color: #160F3C;
   }
   .nav .menu-container .menu-item-has-children-arrow {
     display: block;
@@ -7645,7 +7991,8 @@ hr.style-two {
     content: none;
   }
   .nav .menu-container .menu-link {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 600;
     color: #ffffff;
     max-width: 200px;
     text-align: center;
@@ -7686,6 +8033,12 @@ hr.style-two {
     font-size: 15px;
     text-align: center;
     color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .nav .menu-item-close {
+    left: -22px;
   }
 }
 
@@ -7995,5 +8348,12 @@ img {
 @media screen and (min-width: 1100px) {
   .wrapper {
     padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .scroll-top {
+    bottom: 5px !important;
+    right: 5px !important;
   }
 }
