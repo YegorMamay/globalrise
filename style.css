@@ -127,7 +127,7 @@ q:after {
   content: none;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .block-cases__item, .block-cases__item:hover, .block-cases__item:hover .block-cases__image, .block-cases__image, .block-clients__image-wrapper, .block-clients__image-wrapper:hover, .block-clients__image-wrapper:hover .block-clients__logo, .block-clients__logo, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -10186,7 +10186,7 @@ table th[class*="col-"] {
   clear: both;
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .block-cases__item, .block-cases__item:hover, .block-cases__item:hover .block-cases__image, .block-cases__image, .block-clients__image-wrapper, .block-clients__image-wrapper:hover, .block-clients__image-wrapper:hover .block-clients__logo, .block-clients__logo, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -10781,7 +10781,7 @@ select {
   }
 }
 
-.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
+.top-section__button, .top-section__button:hover, .top-section__button:focus, .top-section__button:active, .content__button, .content__button:hover, .content__button:focus, .content__button:hover .content__arrow, .content__button:focus .content__arrow, .content__arrow, .block-cases__wrapper.slick-slider .slick-arrow, .block-cases__wrapper.slick-slider .slick-arrow:hover, .block-cases__wrapper.slick-slider .slick-arrow:focus, .block-cases__wrapper.slick-slider .slick-arrow:hover .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow:focus .slick-icon, .block-cases__wrapper.slick-slider .slick-arrow .slick-icon, .block-cases__item, .block-cases__item:hover, .block-cases__item:hover .block-cases__image, .block-cases__image, .block-clients__image-wrapper, .block-clients__image-wrapper:hover, .block-clients__image-wrapper:hover .block-clients__logo, .block-clients__logo, #contact-form .fc-form .submit-button, #contact-form .fc-form .submit-button:hover, #contact-form .fc-form .submit-button:focus, #contact-form .fc-form .submit-button:active, #contact-form .form-element-html input, #contact-form .form-element-html input:focus, #top .pum-container .fc-form .submit-button, #top .pum-container .fc-form .submit-button:hover, #top .pum-container .fc-form .submit-button:focus, #top .pum-container .fc-form .submit-button:active, #top .pum-container .form-element-html input, #top .pum-container .form-element-html input:focus, #top .pum-container .form-element-html textarea, #top .pum-container .form-element-html textarea:focus, .review-social, .review-slider .slick-arrow, a, .phone-number, .phone-number:hover, .header, .header.active, .header__button, .header__button:hover, .header__button:focus, .header__button:active, .mobile-nav__button:hover, .mobile-nav__button:focus, .mobile-nav__icon, .mobile-nav__icon:hover, .no-touch .nav .menu-item:hover > .sub-menu, .nav .menu-link, .nav .sub-menu-link, .svg-icon {
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -12006,6 +12006,10 @@ select {
   margin: 60px auto 0;
 }
 
+.block-cases__wrapper.slick-initialized {
+  max-height: 400px;
+}
+
 .block-cases__wrapper.slick-slider {
   padding: 5px 40px;
 }
@@ -12076,6 +12080,16 @@ select {
   box-shadow: 0 5px 20px 2px rgba(89, 137, 246, 0.25);
   position: relative;
   width: 100%;
+}
+
+.block-cases__item:hover {
+  -webkit-box-shadow: 0px 0px 20px 1px #03a9f4ab;
+  box-shadow: 0px 0px 20px 1px #03a9f4ab;
+}
+
+.block-cases__item:hover .block-cases__image {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .block-cases__image {
@@ -12165,6 +12179,16 @@ select {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.block-clients__image-wrapper:hover {
+  -webkit-box-shadow: 0 5px 20px 2px rgba(89, 137, 246, 0.25);
+  box-shadow: 0 5px 20px 2px rgba(89, 137, 246, 0.25);
+}
+
+.block-clients__image-wrapper:hover .block-clients__logo {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .block-clients__logo {

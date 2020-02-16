@@ -283,6 +283,10 @@
     max-width: 1200px;
     margin: 60px auto 0;
 
+    &.slick-initialized {
+      max-height: 400px;
+    }
+
     &.slick-slider {
       padding: 5px 40px;
 
@@ -344,12 +348,24 @@
     box-shadow: $cases_box_shadow;
     position: relative;
     width: 100%;
+    @extend %smooth_animation;
+
+    &:hover {
+      @extend %smooth_animation;
+      box-shadow: $hover_box_shadow;
+
+      & .block-cases__image {
+        @extend %smooth_animation;
+        transform: scale(1.03);
+      }
+    }
   }
 
   &__image {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    @extend %smooth_animation;
   }
 
   &__caption {
@@ -424,12 +440,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @extend %smooth_animation;
+
+    &:hover {
+      @extend %smooth_animation;
+      box-shadow: $cases_box_shadow;
+
+      & .block-clients__logo {
+        @extend %smooth_animation;
+        transform: scale(1.1);
+      }
+    }
+
   }
 
   &__logo {
     width: 100%;
     max-width: 140px;
     margin: 0 auto;
+    @extend %smooth_animation;
   }
 }
 
