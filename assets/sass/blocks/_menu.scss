@@ -286,7 +286,7 @@
       }
 
       & .menu-link {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         color: $color_white;
         max-width: 200px;
@@ -302,7 +302,15 @@
 
     &__container {
       height: 100%;
-      justify-content: space-between;
+      justify-content: center;
+    }
+
+    &__column {
+      margin-bottom: 55px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     & .phone {
@@ -314,14 +322,14 @@
       justify-content: center;
 
       &-item {
-        margin: 0 0 7px;
+        margin: 0 0 15px;
         width: 100%;
       }
 
       &-number {
         display: block;
         width: 100%;
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
         color: $color_white;
       }

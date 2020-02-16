@@ -7580,6 +7580,9 @@ hr.style-two {
 }
 
 @media screen and (min-width: 1100px) {
+  .home .header {
+    border: none;
+  }
   .header {
     background: transparent;
     position: static;
@@ -7591,6 +7594,7 @@ hr.style-two {
     visibility: visible;
     opacity: 1;
     padding: 10px 0;
+    border-bottom: 1px solid #ededed;
   }
   .header__button {
     background: #5989F7;
@@ -7991,7 +7995,7 @@ hr.style-two {
     content: none;
   }
   .nav .menu-container .menu-link {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #ffffff;
     max-width: 200px;
@@ -8002,9 +8006,15 @@ hr.style-two {
   }
   .header__container {
     height: 100%;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .header__column {
+    margin-bottom: 55px;
+  }
+  .header__column:last-child {
+    margin-bottom: 0;
   }
   .header .phone {
     margin-right: 0;
@@ -8024,13 +8034,13 @@ hr.style-two {
     justify-content: center;
   }
   .header .phone-item {
-    margin: 0 0 7px;
+    margin: 0 0 15px;
     width: 100%;
   }
   .header .phone-number {
     display: block;
     width: 100%;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     color: #ffffff;
   }
@@ -8147,12 +8157,17 @@ hr.style-two {
   margin-bottom: 10px;
 }
 
+.home .footer {
+  border: none;
+}
+
 .footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: #ffffff;
+  border-top: 1px solid #ededed;
 }
 
 .footer__wrapper {
@@ -8278,6 +8293,7 @@ img {
   padding: 10px 0;
   font-size: 14px;
   margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .page-name {
@@ -8355,5 +8371,11 @@ img {
   .scroll-top {
     bottom: 5px !important;
     right: 5px !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .scroll-top {
+    bottom: 20px !important;
   }
 }
