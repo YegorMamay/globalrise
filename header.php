@@ -33,6 +33,7 @@
     <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/img/favicon.ico'); ?>"
           type="image/x-icon">
     <?php wp_head(); ?>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body <?php body_class(); ?> id="top">
 <div class="menu-overlay js-overlay"></div>

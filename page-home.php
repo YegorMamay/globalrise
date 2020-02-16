@@ -12,7 +12,7 @@ $main_content = get_field('main_content');
 ?>
 <div class="top-section" style="background: url('<?php echo $attachment_image; ?>') no-repeat center / cover">
     <div class="container">
-        <div class="top-section__wrapper">
+        <div class="top-section__wrapper" data-aos="fade-right">
             <div class="top-section__description"><?php echo $main_content['main_description']; ?></div>
             <h1 class="top-section__title"><?php echo $main_content['main_title']; ?></h1>
             <button type="button" class="top-section__button js-order"><?php echo $main_content['main_button_text']; ?></button>
@@ -27,7 +27,7 @@ $main_content = get_field('main_content');
             </svg>
         </a>
         <div class="content__wrapper">
-            <div class="services" id="services">
+            <div class="services" id="services" data-aos="fade-up">
                 <div class="services__top-section">
                     <p class="services__title h1"><?php echo get_post_meta(get_the_ID(), 'services_title', true); ?></p>
                     <div class="services__description"><?php echo get_post_meta(get_the_ID(), 'services_description', true); ?></div>
@@ -61,7 +61,7 @@ $main_content = get_field('main_content');
                     ?>
                 </div>
             </div>
-            <div class="block-cases" id="cases">
+            <div class="block-cases" id="cases" data-aos="fade-right">
                 <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'cases_title', true); ?></p>
                 <div class="block-cases__wrapper js-slider-case">
                     <?php
@@ -95,7 +95,7 @@ $main_content = get_field('main_content');
                     ?>
                 </div>
             </div>
-            <div class="block-clients" id="clients">
+            <div class="block-clients" id="clients" data-aos="fade-right">
                 <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'clients_title', true); ?></p>
                 <div class="block-clients__wrapper">
                     <?php
@@ -137,7 +137,7 @@ $main_content = get_field('main_content');
             <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'contacts_title', true); ?></p>
             <div class="block-contacts__wrapper">
                 <div class="block-contacts__row">
-                    <div class="block-contacts__content">
+                    <div class="block-contacts__content" data-aos="fade-up">
                         <div class="block-contacts__item">
                             <?php
                             $address = get_theme_mod('bw_additional_address');
@@ -161,7 +161,7 @@ $main_content = get_field('main_content');
                             <?php } ?>
                         </div>
                     </div>
-                    <div class="block-contacts__form" id="contact-form">
+                    <div class="block-contacts__form" id="contact-form" data-aos="fade-up">
                         <?php echo do_shortcode('[fc id=\'1\'][/fc]'); ?>
                     </div>
                 </div>
