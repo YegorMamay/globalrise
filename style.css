@@ -12069,6 +12069,7 @@ select {
 }
 
 .block-cases__item-wrapper {
+  display: block;
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 10px 15px;
@@ -12740,6 +12741,25 @@ ol.commentlist .comment-body {
   font-size: 16px;
   line-height: 1.5;
   color: #160F3C;
+}
+
+.archives-title {
+  color: #160F3C;
+  margin: 15px 0 25px;
+  font-weight: 700;
+}
+
+.archives-cases {
+  margin-bottom: 20px;
+}
+
+.archives-cases__item {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
 }
 
 .review-item {

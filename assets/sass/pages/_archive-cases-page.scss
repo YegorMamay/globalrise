@@ -1,0 +1,17 @@
+.archives-title {
+  color: $themeColorOne;
+  margin: 15px 0 25px;
+  font-weight: 700;
+}
+
+.archives-cases {
+  margin-bottom: 20px;
+  &__item {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+}
