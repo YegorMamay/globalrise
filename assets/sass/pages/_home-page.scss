@@ -166,6 +166,12 @@
     justify-content: center;
     height: 160px;
     overflow: hidden;
+    @extend %smooth_animation;
+
+    &:hover {
+      @extend %smooth_animation;
+      box-shadow: $cases_box_shadow;
+    }
   }
 
   &__top-section {

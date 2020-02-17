@@ -46,14 +46,14 @@ $main_content = get_field('main_content');
                         <?php
                         $services_image = get_field('services_image', get_the_ID());
                         ?>
-                        <div class="services__item-wrapper">
+                        <a href="<?php echo get_permalink(); ?>" class="services__item-wrapper">
                             <div class="services__item">
                                 <div class="services__icon-wrapper">
                                     <img class="services__icon" src="<?php echo $services_image; ?>" alt="icon"/>
                                 </div>
                                 <div class="services__item-title"><?php the_title(); ?></div>
                             </div>
-                        </div>
+                        </a>
                         <?php
                     }
 
