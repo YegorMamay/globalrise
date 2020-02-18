@@ -27,100 +27,106 @@ $main_content = get_field('main_content');
             </svg>
         </a>
         <div class="content__wrapper">
-            <div class="services" id="services" data-aos="fade-up">
-                <div class="services__top-section">
-                    <p class="services__title h1"><?php echo get_post_meta(get_the_ID(), 'services_title', true); ?></p>
-                    <div class="services__description"><?php echo get_post_meta(get_the_ID(), 'services_description', true); ?></div>
-                </div>
-                <div class="services__wrapper">
-                    <?php
-                    global $post;
-                    $args = array(
-                        'post_type'=> 'services',
-                        'publish' => true,
-                        'posts_per_page' => 100
-                    );
-                    $services_item = get_posts($args);
-                    foreach ($services_item as $post) {
-                        ?>
+            <div class="services" id="services">
+                <div class="services__container" data-aos="fade-up">
+                    <div class="services__top-section">
+                        <p class="services__title h1"><?php echo get_post_meta(get_the_ID(), 'services_title', true); ?></p>
+                        <div class="services__description"><?php echo get_post_meta(get_the_ID(), 'services_description', true); ?></div>
+                    </div>
+                    <div class="services__wrapper">
                         <?php
-                        $services_image = get_field('services_image', get_the_ID());
-                        ?>
-                        <a href="<?php echo get_permalink(); ?>" class="services__item-wrapper">
-                            <div class="services__item">
-                                <div class="services__icon-wrapper">
-                                    <img class="services__icon" src="<?php echo $services_image; ?>" alt="icon"/>
+                        global $post;
+                        $args = array(
+                            'post_type'=> 'services',
+                            'publish' => true,
+                            'posts_per_page' => 100
+                        );
+                        $services_item = get_posts($args);
+                        foreach ($services_item as $post) {
+                            ?>
+                            <?php
+                            $services_image = get_field('services_image', get_the_ID());
+                            ?>
+                            <a href="<?php echo get_permalink(); ?>" class="services__item-wrapper">
+                                <div class="services__item">
+                                    <div class="services__icon-wrapper">
+                                        <img class="services__icon" src="<?php echo $services_image; ?>" alt="icon"/>
+                                    </div>
+                                    <div class="services__item-title"><?php the_title(); ?></div>
                                 </div>
-                                <div class="services__item-title"><?php the_title(); ?></div>
-                            </div>
-                        </a>
-                        <?php
-                    }
+                            </a>
+                            <?php
+                        }
 
-                    wp_reset_postdata();
-                    ?>
+                        wp_reset_postdata();
+                        ?>
+                    </div>
                 </div>
             </div>
-            <div class="block-cases" id="cases" data-aos="fade-right">
-                <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'cases_title', true); ?></p>
-                <div class="block-cases__wrapper js-slider-case">
-                    <?php
-                    global $post;
-                    $args = array(
-                        'post_type'=> 'cases',
-                        'publish' => true,
-                        'posts_per_page' => 100
-                    );
-                    $cases_item = get_posts($args);
-                    foreach ($cases_item as $post) {
-                        ?>
+            <div class="block-cases" id="cases">
+                <div class="block-cases__container" data-aos="fade-right">
+                    <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'cases_title', true); ?></p>
+                    <div class="block-cases__wrapper js-slider-case">
                         <?php
-                        $cases_image = get_field('cases_image', get_the_ID());
-                        $cases_description = get_field('cases_description', get_the_ID());
-                        $cases_color_text = get_field('cases_text_color', get_the_ID());
-                        ?>
-                        <a href="<?php echo get_permalink(); ?>" class="block-cases__item-wrapper">
-                            <div class="block-cases__item">
-                                <img class="block-cases__image" src="<?php echo $cases_image; ?>" alt="image"/>
-                                <div class="block-cases__caption">
-                                    <p class="block-cases__item-title" style="color: <?php echo $cases_color_text; ?>"><?php the_title(); ?></p>
-                                    <div class="block-cases__description" style="color: <?php echo $cases_color_text; ?>"><?php echo $cases_description; ?></div>
+                        global $post;
+                        $args = array(
+                            'post_type'=> 'cases',
+                            'publish' => true,
+                            'posts_per_page' => 100
+                        );
+                        $cases_item = get_posts($args);
+                        foreach ($cases_item as $post) {
+                            ?>
+                            <?php
+                            $cases_image = get_field('cases_image', get_the_ID());
+                            $cases_description = get_field('cases_description', get_the_ID());
+                            $cases_color_text = get_field('cases_text_color', get_the_ID());
+                            ?>
+                            <a href="<?php echo get_permalink(); ?>" class="block-cases__item-wrapper">
+                                <div class="block-cases__item">
+                                    <img class="block-cases__image" src="<?php echo $cases_image; ?>" alt="image"/>
+                                    <div class="block-cases__caption">
+                                        <p class="block-cases__item-title" style="color: <?php echo $cases_color_text; ?>"><?php the_title(); ?></p>
+                                        <div class="block-cases__description" style="color: <?php echo $cases_color_text; ?>"><?php echo $cases_description; ?></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <?php
-                    }
+                            </a>
+                            <?php
+                        }
 
-                    wp_reset_postdata();
-                    ?>
+                        wp_reset_postdata();
+                        ?>
+                    </div>
                 </div>
             </div>
-            <div class="block-clients" id="clients" data-aos="fade-right">
-                <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'clients_title', true); ?></p>
-                <div class="block-clients__wrapper">
-                    <?php
-                    global $post;
-                    $args = array(
-                        'post_type'=> 'clients',
-                        'publish' => true,
-                        'posts_per_page' => 100
-                    );
-                    $cases_item = get_posts($args);
-                    foreach ($cases_item as $post) {
-                        ?>
+            <div class="block-clients" id="clients">
+                <div class="block-clients__container" data-aos="fade-right">
+                    <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'clients_title', true); ?></p>
+                    <div class="block-clients__wrapper">
                         <?php
-                        $client_image = get_field('client_logo', get_the_ID());
-                        ?>
-                        <div class="block-clients__item">
-                            <div class="block-clients__image-wrapper">
-                                <img class="block-clients__logo" src="<?php echo $client_image; ?>" alt="logo"/>
+                        global $post;
+                        $args = array(
+                            'post_type'=> 'clients',
+                            'publish' => true,
+                            'posts_per_page' => 100
+                        );
+                        $cases_item = get_posts($args);
+                        foreach ($cases_item as $post) {
+                            ?>
+                            <?php
+                            $client_image = get_field('client_logo', get_the_ID());
+                            ?>
+                            <div class="block-clients__item">
+                                <div class="block-clients__image-wrapper">
+                                    <img class="block-clients__logo" src="<?php echo $client_image; ?>" alt="logo"/>
+                                </div>
                             </div>
-                        </div>
-                        <?php
-                    }
+                            <?php
+                        }
 
-                    wp_reset_postdata();
-                    ?>
+                        wp_reset_postdata();
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,7 +138,7 @@ $main_content = get_field('main_content');
     $contacts_elem_id = get_post_meta(get_the_ID(), 'contacts_image', true);
     $contacts_image = wp_get_attachment_url($contacts_elem_id);
     ?>
-    <div class="block-contacts__section" style="background: url('<?php echo $contacts_image; ?>') no-repeat center / cover">
+    <div class="block-contacts__section" style="background: url('<?php echo $contacts_image; ?>') no-repeat center / contain">
         <div class="container">
             <p class="main-title h1"><?php echo get_post_meta(get_the_ID(), 'contacts_title', true); ?></p>
             <div class="block-contacts__wrapper">
